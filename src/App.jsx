@@ -14,7 +14,9 @@ function App() {
          
    }, [])
    console.log(countries);
-   /**
+  return (
+
+       /**
     * nuevo componentes con esta informacion
     * bandera
     * nombre de pais
@@ -23,9 +25,6 @@ function App() {
     * en que contiene esta 
     * area que ocupa
     */
-
-
-  return (
     <div className="App">
       <h1> CONSUMIENDO UNA API</h1>
       <div className='card-container'>
@@ -43,5 +42,4 @@ function App() {
     </div>
   )
 }
-
 export default App

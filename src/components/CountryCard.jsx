@@ -10,6 +10,7 @@ const CountryCard = ({country}) => {
             <li> <span>Populations:</span>{country.population}</li>
             <li> <span>Continent:</span>{country.continents[0]}</li>
             <li> <span>Area:</span>{country.area}</li>
+            <li> <span>Area:</span>{country.capital}</li>
           </ul>
     </article>
   )
